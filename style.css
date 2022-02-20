@@ -1,0 +1,289 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: rgb(35, 36, 38);
+}
+#title {
+  background: rgba(0, 0, 0, 0.7) url(film.jpg) no-repeat;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+h1 {
+  padding-top: 10%;
+  color: #fff;
+  font-weight: 800;
+  font-size: 2.7rem;
+  line-height: 1.5;
+
+}
+
+h2 {
+  text-align: left;
+  font-weight: bold;
+  color: #fff;
+  font-size: 2.3rem;
+  margin-top: 5%;
+}
+
+h3 {
+  font-weight: bold;
+  color: #fff;
+}
+
+p {
+  color: hsl(0deg 0% 66%);
+}
+
+.first {
+  background: rgb(253,29,29);
+background: linear-gradient(90deg, rgba(253,29,29,1) 24%, rgba(253,96,48,1) 38%, rgba(253,98,48,1) 48%, rgba(253,128,56,1) 74%, rgba(252,176,69,1) 100%, rgba(131,58,180,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4rem;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* Try Button */
+
+.button {
+  display: inline-block;
+  border-radius: 8px;
+  background: rgb(253,29,29);
+  background: linear-gradient(90deg, rgba(253,29,29,1) 24%, rgba(253,96,48,1) 38%, rgba(253,98,48,1) 48%, rgba(253,128,56,1) 74%, rgba(252,176,69,1) 100%, rgba(131,58,180,1) 100%);
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 0.5px;;
+  font-weight: 600;
+  padding: 15px 10px;;
+  width: 315px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/* Title */
+
+.col-lg-6 {
+  padding-left: 0;
+}
+
+/* Features */
+
+#features {
+  padding: 3% 15%;
+  text-align: center;
+  background-color: hsl(0deg 0% 8%);
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.icon {
+  margin-bottom: 1rem;
+  color: #4c4c4c;
+}
+
+.icon:hover {
+  color: hsl(0deg 0% 74%);
+}
+/* Popular */
+
+.popular {
+  padding-top: 1%;
+  padding-bottom: 5%;
+  background-color: hsl(0deg 0% 8%);
+  text-align: center;
+}
+
+img {
+  width: 200px;
+  border-radius: 5%;
+  margin-right: 15px;
+}
+
+/* Movies page */
+
+#movies {
+  background-color: hsl(0deg 0% 8%);
+}
+
+.navbar {
+  padding-bottom: 0;
+}
+
+.title_m {
+  padding-top: 0;
+  padding-bottom: 3%;
+  padding-left: 15%;
+  padding-right: 15%;
+  text-align: center;
+  background-color: hsl(0deg 0% 8%);
+}
+
+.c {
+  padding-bottom: 0;
+}
+
+/* Register page */
+
+#register {
+  background: rgba(0, 0, 0, 0.7) url(film.jpg) no-repeat;
+}
+
+.register_form {
+  padding: 4% 15%;
+}
+
+.form {
+  background-color: hsl(0deg 0% 8%);
+  border-radius: 3%;
+  padding-bottom: 2%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+label {
+  color: #fff;
+}
+
+.try {
+  color: #fff;
+}
+.try:hover {
+  color: #fff;
+  text-decoration: none;
+}
+#card {
+  position: relative;
+  width: 320px;
+  display: block;
+  margin: 40px auto;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+#upper-side {
+  padding: 2em;
+  background-color: hsl(0deg 0% 8%);
+  display: block;
+  color: #fff;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+#checkmark {
+  font-weight: lighter;
+  fill: #fff;
+  margin: -3.5em auto auto 20px;
+}
+#status {
+  font-weight: lighter;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1em;
+  margin-top: -.2em;
+  margin-bottom: 0;
+}
+#lower-side {
+  padding: 2em 2em 5em 2em;
+  background: #fff;
+  display: block;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+#message {
+  margin-top: -.5em;
+  color: #757575;
+  letter-spacing: 1px;
+}
+/*Footer*/
+footer{
+  position: relative;
+  width: 100%;
+  padding: 30px 70px;
+  background: #232425;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.social,
+.menu{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+.social li,
+.menu li{
+  list-style: none;
+}
+.social li a {
+  font-size: 3.2em;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.menu li a {
+  font-size: 1.2em;
+  color: #fff;
+  opacity: 0.75;
+  margin: 0 15px;
+  text-decoration: none;
+  display: inline-block;
+}
+.menu li a:hover {
+  opacity: 1;
+}
+footer p {
+  color: #fff;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 1.3em;
+}
